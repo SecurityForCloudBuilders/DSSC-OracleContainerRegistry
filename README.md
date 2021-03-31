@@ -19,7 +19,29 @@ O Deep Security Smart Check oferece a capacidade de:
 
 # Topologia
 
-
-
+<img src="OCIR.jpg" alt="ADD Azure" width="65%"> </img>
 
 # Adicionando um Registry no Smart Check
+
+Na console do Oracle Cloud navegue até o menu Identity > Users > Details > Resources > Auth Tokens > Generate Token
+
+O token gerado para efetuar login no registry via linha e comando e também é utilizaremos no Smart Check.
+
+Em Administration > Tenancy Details > Home Region indentificamos a região onde estamos.
+Verifique o id da região na documentação, utilizaremos ela para login.
+<p>
+https://docs.oracle.com/en-us/iaas/Content/Registry/Concepts/registryprerequisites.htm#regional-availability
+https://docs.oracle.com/en-us/iaas/Content/Registry/Tasks/registrypushingimagesusingthedockercli.htm
+  
+Nesse exemplo usaremos São Paulo:
+
+```
+$ docker login https://sa-saopaulo-1.ocir.io
+username: <tenancy-namespace>/oracleidentitycloudservice/<username>
+password: inserir-token
+Login Succeeded
+```
+
+Conseguimos autenticar no Registry, usaremos as mesmas credenciais no Smart Check.
+
+
