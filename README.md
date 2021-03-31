@@ -45,4 +45,6 @@ Login Succeeded
 
 Conseguimos autenticar no Registry, usaremos as mesmas credenciais no Smart Check.
 
+<img src="smartcheck.jpg" alt="ADD Azure" width="65%"> </img>
+
 
