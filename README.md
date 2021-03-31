@@ -31,6 +31,7 @@ Em Administration > Tenancy Details > Home Region indentificamos a região onde 
 Verifique o id da região na documentação, utilizaremos ela para login.
 <p>
 https://docs.oracle.com/en-us/iaas/Content/Registry/Concepts/registryprerequisites.htm#regional-availability
+<p>
 https://docs.oracle.com/en-us/iaas/Content/Registry/Tasks/registrypushingimagesusingthedockercli.htm
   
 Nesse exemplo usaremos São Paulo:
