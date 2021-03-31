@@ -48,8 +48,11 @@ Conseguimos autenticar no Registry, usaremos as mesmas credenciais no Smart Chec
 <img src="smartcheck.jpg" alt="ADD Azure" width="65%"> </img>
 
 Name: Defina um Nome
+<p>
 Registry Type: Generic Registry
+<p>
 User ID: <tenancy-namespace>/oracleidentitycloudservice/<username>
+<p>
 Password: Colar o Token
-
+<p>
 Caso você tiver um certificado PEM siga as recomendações.
