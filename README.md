@@ -38,7 +38,7 @@ Nesse exemplo usaremos São Paulo:
 
 ```
 $ docker login https://sa-saopaulo-1.ocir.io
-username: <tenancy-namespace>/oracleidentitycloudservice/<username>
+username: tenancy-namespace>/oracleidentitycloudservice/<username
 password: inserir-token
 Login Succeeded
 ```
@@ -50,7 +50,7 @@ Conseguimos autenticar no Registry, usaremos as mesmas credenciais no Smart Chec
 Name: Defina um Nome
 
 * Registry Type: Generic Registry
-* User ID: <tenancy-namespace>/oracleidentitycloudservice/<username>
+* User ID: tenancy-namespace>/oracleidentitycloudservice/<username
 * Password: Colar o Token
 <p>
 Caso você tiver um certificado PEM siga as recomendações depois só clicar em Save e fazer um push da imagem.
