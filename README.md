@@ -52,5 +52,6 @@ Name: Defina um Nome
 * Registry Type: Generic Registry
 * User ID: tenancy-namespace/oracleidentitycloudservice/username
 * Password: Colar o Token
+* Registry Host: sa-saopaulo-1.ocir.io (verificar sua região)
 <p>
 Caso você tiver um certificado PEM siga as recomendações depois só clicar em Save e fazer um push da imagem.
